@@ -1,0 +1,17 @@
+show dbs;
+
+use curso_mongo;
+
+db.createCollection('estados');
+db.estados.find({})
+show dbs;
+
+show collections;
+
+db.createCollection('Estados');
+
+show collections;
+
+db.Estados.drop();
+
+show collections;
